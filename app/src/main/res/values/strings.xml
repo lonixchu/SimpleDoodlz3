@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SimpleDoodlz3</string>
+    <string name="message_error_saving">There was an error saving the image</string>
+    <string name="message_saved">Your saved painting can be viewed in the Photos app by selecting Device Folders from that app\'s menu</string>
+    <string name="message_error_printing">Your device does not support printing</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lonixchu.simpledoodlz3.MainActivity">
+
+        <view
+            android:id="@+id/paint"
+            class="com.example.lonixchu.simpledoodlz3.DoodleView"
+            id="@+id/view4"
+            android:layout_width="393dp"
+            android:layout_height="375dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/seekBar"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="373dp"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="388dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BLACK" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BLUE"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
